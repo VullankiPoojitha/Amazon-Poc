@@ -1,0 +1,14 @@
+.searchStyles {
+    min-width: 900px;
+    height: 36px;
+
+}
+
+
+@media (max-width: 1000px) {
+    .searchStyles {
+        min-width: 0px;
+        height: 36px;
+        /* background-color: #131921; */
+    }
+}

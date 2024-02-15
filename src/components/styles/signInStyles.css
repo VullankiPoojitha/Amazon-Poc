@@ -1,0 +1,100 @@
+.mainContaier {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+
+.formStyles {
+    padding: 30px 60px 60px 60px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, .5), 0 1px 0 rgba(0, 0, 0, .07) inset;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    border-top-color: #949494;
+}
+
+.headingStyles {
+    padding: 0px 10px 20px 0px;
+    /* text-size: 20px'; */
+    font-size: 30px;
+
+}
+
+.labelStyles {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.inputContainer {
+    display: flex;
+    justify-content: center;
+    padding: 15px 15px 15px 0px;
+    flex-direction: column;
+}
+
+.inputStyles {
+    padding: 2px;
+    height: 23px;
+    width: 287px;
+    font-size: 16px;
+}
+
+
+.buttonContainer {
+    display: flex;
+    padding: 15px 0px 15px 0px;
+}
+
+.buttonStyles {
+    padding: 8px;
+    width: 297px;
+    /* background-color: #f0c14b; */
+    background: #f0c14b;
+    border: none;
+    border-radius: 4px;
+}
+
+
+.linkContainer {
+    font-size: 13px;
+    line-height: 19px;
+    color: #111;
+    font-family: Arial, sans-serif;
+    width: 307px;
+}
+
+.aColor {
+    color: #0066c0;
+}
+
+.textNewAmazonStyles {
+    line-height: 1;
+    font-size: 12px;
+    color: #767676;
+    font-weight: 400;
+    z-index: 2;
+    position: relative;
+    display: inline-block;
+    background-color: #fff;
+    padding: 0 8px 0 7px;
+}
+
+.signUpContainer {
+    text-align: center;
+    padding: 15px 0px 15px 0px;
+}
+
+.buttonStylesSignUp {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, 0.5) 0px 2px 5px 0px;
+    width: 300px;
+    height: 33px;
+    border: 2px solid #E8E8E8;
+    border-color: #D5D9D9;
+}
